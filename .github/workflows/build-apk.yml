@@ -29,16 +29,5 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
-    - name: Remove Custom Signing Config from Build
-      run: |
-        find . -name "build.gradle.kts" -exec sed -i '/signingConfigs/,/}/d' {} +
-        find . -name "build.gradle.kts" -exec sed -i '/signingConfig /d' {} +
-
     - name: Build Debug APK
       run: ./gradlew assembleDebug --no-daemon
-
-    - name: Upload APK Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: app-debug-apk
-        path: app/build/outputs/apk/debug/app-debug.apk
