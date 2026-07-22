@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "36347733113",
+    "project_id": "optical-wall-434100-g5",
+    "storage_bucket": "optical-wall-434100-g5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36347733113:android:299d1df6fc170b92fee0a8",
+        "android_client_info": {
+          "package_name": "Imanshu999.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnAqFoDijW17c9Kw60j6H1eGy-3Vvzsxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
