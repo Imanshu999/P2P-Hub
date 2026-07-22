@@ -1,0 +1,6 @@
+{
+  "name": "AetherLink",
+  "description": "Glassmorphic P2P connection hub, live stream preview, and encrypted secure vault",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
